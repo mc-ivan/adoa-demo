@@ -1,0 +1,35 @@
+{
+    "name": "processmaker/adoa",
+    "friendly_name": "Adoa",
+    "description": "ADOA package for production server",
+    "license": "AGPL-3.0-or-later",
+    "version": "6.1",
+    "type": "project",
+
+    "authors": [
+        {
+            "name": "Jukumari",
+            "email": "jukumari@processmaker.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "ProcessMaker\\Package\\Adoa\\": "src",
+            "Tests\\Adoa\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ProcessMaker\\Package\\Adoa\\PackageServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "@php rename-project.php"
+        ]
+    }
+}
