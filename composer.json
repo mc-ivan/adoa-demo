@@ -1,15 +1,15 @@
 {
-    "name": "processmaker/adoa",
+    "name": "mc-van/adoa",
     "friendly_name": "Adoa",
-    "description": "ADOA package for production server",
+    "description": "ADOA package for test demo server",
     "license": "AGPL-3.0-or-later",
     "version": "6.1",
     "type": "project",
 
     "authors": [
         {
-            "name": "Jukumari",
-            "email": "jukumari@processmaker.com"
+            "name": "mci",
+            "email": "ivan.mamani@processmaker.com"
         }
     ],
     "require": {
