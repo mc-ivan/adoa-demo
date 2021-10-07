@@ -5,8 +5,8 @@ This package provides the necessary base code to start the developing a package 
 If you need to create a new ProcessMaker package run the following commands:
 
 ```
-git clone https://github.com/ProcessMaker/adoa.git
-cd adoa
+git clone https://github.com/mc-ivan/adoa-demo.git
+cd adoa-demo
 php rename-project.php adoa
 composer install
 npm install
@@ -14,7 +14,7 @@ npm run dev
 ```
 
 ## Installation
-* Use `composer require processmaker/adoa` to install the package.
+* Use `composer require mc-ivan/adoa-demo` to install the package.
 * Use `php artisan adoa:install` to install generate the dependencies.
 
 ## Navigation and testing
@@ -23,6 +23,4 @@ npm run dev
 
 ## Uninstall
 * Use `php artisan adoa:uninstall` to uninstall the package
-* Use `composer remove processmaker/adoa` to remove the package completely
-
-# adoa-demo
+* Use `composer remove mc-ivan/adoa-demo` to remove the package completely
